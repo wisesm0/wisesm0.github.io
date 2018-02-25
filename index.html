@@ -58,9 +58,9 @@ Creative:
 
 Front-end:
 	Polymer
+	Typescript
 	React
-	Flux, Redux, Relay
-	Angular1   &2(a little)
+	Redux, Relay
 	WebWorkers, Service Workers
 	WebAudio API
 	SASS/SCSS, Less, Stylus
@@ -137,8 +137,7 @@ Semi-Knowledge:
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Bungee+Hairline' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">	
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+	<link rel="stylesheet" href="css/flexing.css" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -146,25 +145,36 @@ Semi-Knowledge:
     <![endif]-->
 </head>
 <body>
-	<div class="row" id="particles-js">
-		<div class="text-center col-lg-8 col-lg-offset-2 center-vert"id="about">
-			<p>scott-wise</p>
-			<hr class="light">
-			<a href="http://dyadicmusic.com/" target="blank">dyadic-music</a> | 
-			<a href="http://vgdev.gtorg.gatech.edu/profile/Swise/" target="blank">gatech-vg-dev</a> | 
-			<a href="http://globalgamejam.org/users/swise8" target="blank">global-game-jams</a> | 
-			<a href="https://gamejolt.com/games/don-t-die-mr-zombie/79915" target="blank">game-jolts</a>
+	<div id="particles-js">
+		<div id="about" class="center-vert">
+			<p id="my-name">scott-wise</p>
+
+			<div id="project-links">
+				<a href="http://dyadicmusic.com/" target="blank">dyadic_music</a>
+				| 
+				<a href="http://vgdev.gtorg.gatech.edu/profile/Swise/" target="blank">gatech_vgdev</a> 
+				| 
+				<a href="http://globalgamejam.org/users/swise8" target="blank">global_game_jams</a> 
+				| 
+				<a href="https://gamejolt.com/games/don-t-die-mr-zombie/79915" target="blank">game_jolts</a>
+			</div>
 			<br/><br/>
-			<a href="https://www.linkedin.com/in/scottwise1" target="blank"><img src="img/linkedin.png" width="5%" height="5%"></a>&nbsp;&nbsp;
-			<a href="https://github.com/wisesm1" target="blank"><img src="img/github.png" width="5%" height="5%"></a>&nbsp;
-			<a href="https://vimeo.com/scizottwise" target="blank"><img src="img/vimeo-3-xxl.png" width="5%" height="5%"></a>&nbsp;
-			<hr class="light">
+			<div id="social-links">
+				<a href="https://www.linkedin.com/in/scottwise1" target="blank"><img src="img/linkedin.png" width="64px" height="64px"></a>
+				<a href="https://github.com/wisesm1" target="blank"><img src="img/github.png" width="64px" height="64px"></a>
+				<a href="https://vimeo.com/scizottwise" target="blank"><img src="img/vimeo-3-xxl.png" width="64px" height="64px"></a>
+			</div>
+			
 			<br>
-			<p id="medium">currently employed with unity technologies in san francisco</p>
+			<p class="medium" id="ma-employment">
+				currently employed with unity technologies in san francisco
+			</p>
 			<br>
-			<p><i id="small">view-source-for-details</i><p>
+			<p id="ma-dets"><i id="medium">view-source-for-details</i><p>
 		</div>
+
 	</div>
+
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="js/particle_script.js"></script>
 </body>

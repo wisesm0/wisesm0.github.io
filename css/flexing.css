@@ -1,0 +1,100 @@
+body {
+	webkit-tap-highlight-color: #222;
+    background-color:#111; 
+    font-family: Cutive Mono, Verdana,Arial,sans-serif;
+}
+
+#about {
+	width:100%;
+	color:#fff;
+}
+
+#my-name, #ma-dets, 
+#ma-employment {
+	display:flex;
+	justify-content:center;
+}
+
+#project-links, #social-links {
+	display:flex;
+	justify-content:center;
+	/*margin:0 -5px;*/
+}
+
+#project-links a, #social-links a {
+	margin: 0 10px;
+}
+
+.center-vert {
+    z-index:1; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+canvas {
+    display:block;
+    background: #111;
+    position: fixed;
+    z-index: -1;
+}
+
+a {
+	font-size:14px; 
+	text-decoration: none;
+    color: #f05f40;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover,
+a:focus {
+    color: #eb3812;
+    text-decoration: underline;
+}
+
+
+p {
+    font-family: Bungee Hairline, Verdana,Arial,sans-serif;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+p.medium {
+    font-size:11px; 
+}
+
+p #medium {
+    font-size:8px; 
+}
+
+p #small {
+    font-size:6px; 
+}
+
+img::selection {
+    color: #fff;
+    background: 0 0;
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: 0 0;
+}
+
+hr {
+    max-width: 50px;
+    border-color: #f05f40;
+    border-width: 3px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
