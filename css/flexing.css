@@ -9,7 +9,7 @@ body {
 	color:#fff;
 }
 
-#my-name, #ma-dets, 
+#my-name, #ma-header, 
 #ma-employment {
 	display:flex;
 	justify-content:center;
@@ -18,7 +18,6 @@ body {
 #project-links, #social-links {
 	display:flex;
 	justify-content:center;
-	/*margin:0 -5px;*/
 }
 
 #project-links a, #social-links a {
@@ -72,6 +71,13 @@ p #medium {
 
 p #small {
     font-size:6px; 
+}
+
+#ma-header {
+    font-family: Bungee Hairline, Verdana,Arial,sans-serif;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.5;
 }
 
 img::selection {
